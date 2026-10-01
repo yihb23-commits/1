@@ -1,0 +1,7 @@
+{
+    "KeilAssistant.Keil.HOME": {
+        "MDK": "E:/stm32/keli5"
+    },
+    "KeilAssistant.Project.IntelliSenseMode": "windows-msvc-arm",
+    "C_Cpp.default.compilerPath": ""
+}
