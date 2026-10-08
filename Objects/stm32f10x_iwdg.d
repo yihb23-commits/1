@@ -1,5 +1,5 @@
-.\objects\stm32f10x_iwdg.o: ..\library\stm32f10x_iwdg.c
-.\objects\stm32f10x_iwdg.o: ..\library\stm32f10x_iwdg.h
+.\objects\stm32f10x_iwdg.o: library\stm32f10x_iwdg.c
+.\objects\stm32f10x_iwdg.o: library\stm32f10x_iwdg.h
 .\objects\stm32f10x_iwdg.o: .\start\stm32f10x.h
 .\objects\stm32f10x_iwdg.o: .\start\core_cm3.h
 .\objects\stm32f10x_iwdg.o: E:\stm32\keli5\ARM\ARMCC\Bin\..\include\stdint.h

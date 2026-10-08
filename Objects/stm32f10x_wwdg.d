@@ -1,5 +1,5 @@
-.\objects\stm32f10x_wwdg.o: ..\library\stm32f10x_wwdg.c
-.\objects\stm32f10x_wwdg.o: ..\library\stm32f10x_wwdg.h
+.\objects\stm32f10x_wwdg.o: library\stm32f10x_wwdg.c
+.\objects\stm32f10x_wwdg.o: library\stm32f10x_wwdg.h
 .\objects\stm32f10x_wwdg.o: .\start\stm32f10x.h
 .\objects\stm32f10x_wwdg.o: .\start\core_cm3.h
 .\objects\stm32f10x_wwdg.o: E:\stm32\keli5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -29,4 +29,3 @@
 .\objects\stm32f10x_wwdg.o: .\library\stm32f10x_usart.h
 .\objects\stm32f10x_wwdg.o: .\library\stm32f10x_wwdg.h
 .\objects\stm32f10x_wwdg.o: .\library\misc.h
-.\objects\stm32f10x_wwdg.o: ..\library\stm32f10x_rcc.h

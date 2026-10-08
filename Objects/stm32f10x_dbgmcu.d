@@ -1,5 +1,5 @@
-.\objects\stm32f10x_dbgmcu.o: ..\library\stm32f10x_dbgmcu.c
-.\objects\stm32f10x_dbgmcu.o: ..\library\stm32f10x_dbgmcu.h
+.\objects\stm32f10x_dbgmcu.o: library\stm32f10x_dbgmcu.c
+.\objects\stm32f10x_dbgmcu.o: library\stm32f10x_dbgmcu.h
 .\objects\stm32f10x_dbgmcu.o: .\start\stm32f10x.h
 .\objects\stm32f10x_dbgmcu.o: .\start\core_cm3.h
 .\objects\stm32f10x_dbgmcu.o: E:\stm32\keli5\ARM\ARMCC\Bin\..\include\stdint.h

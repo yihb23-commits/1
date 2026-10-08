@@ -23,6 +23,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
+#include "agv_board.h"
 
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
@@ -55,6 +56,7 @@ void NMI_Handler(void)
   */
 void HardFault_Handler(void)
 {
+  GPIOB->BRR = GPIO_Pin_10; /* disable TB6612 even if main loop cannot run */
   /* Go to infinite loop when Hard Fault exception occurs */
   while (1)
   {
@@ -68,6 +70,7 @@ void HardFault_Handler(void)
   */
 void MemManage_Handler(void)
 {
+  GPIOB->BRR = GPIO_Pin_10;
   /* Go to infinite loop when Memory Manage exception occurs */
   while (1)
   {
@@ -81,6 +84,7 @@ void MemManage_Handler(void)
   */
 void BusFault_Handler(void)
 {
+  GPIOB->BRR = GPIO_Pin_10;
   /* Go to infinite loop when Bus Fault exception occurs */
   while (1)
   {
@@ -94,6 +98,7 @@ void BusFault_Handler(void)
   */
 void UsageFault_Handler(void)
 {
+  GPIOB->BRR = GPIO_Pin_10;
   /* Go to infinite loop when Usage Fault exception occurs */
   while (1)
   {
@@ -134,6 +139,7 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
+  Board_Tick();
 }
 
 /******************************************************************************/

@@ -28,3 +28,6 @@
 .\objects\main.o: .\library\stm32f10x_usart.h
 .\objects\main.o: .\library\stm32f10x_wwdg.h
 .\objects\main.o: .\library\misc.h
+.\objects\main.o: .\user\agv_board.h
+.\objects\main.o: .\user\agv_control.h
+.\objects\main.o: .\user\agv_config.h

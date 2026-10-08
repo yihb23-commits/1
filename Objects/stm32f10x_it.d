@@ -29,3 +29,6 @@
 .\objects\stm32f10x_it.o: .\library\stm32f10x_usart.h
 .\objects\stm32f10x_it.o: .\library\stm32f10x_wwdg.h
 .\objects\stm32f10x_it.o: .\library\misc.h
+.\objects\stm32f10x_it.o: user\agv_board.h
+.\objects\stm32f10x_it.o: user\agv_control.h
+.\objects\stm32f10x_it.o: user\agv_config.h

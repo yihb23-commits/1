@@ -1,5 +1,5 @@
-.\objects\stm32f10x_can.o: ..\library\stm32f10x_can.c
-.\objects\stm32f10x_can.o: ..\library\stm32f10x_can.h
+.\objects\stm32f10x_can.o: library\stm32f10x_can.c
+.\objects\stm32f10x_can.o: library\stm32f10x_can.h
 .\objects\stm32f10x_can.o: .\start\stm32f10x.h
 .\objects\stm32f10x_can.o: .\start\core_cm3.h
 .\objects\stm32f10x_can.o: E:\stm32\keli5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -29,4 +29,3 @@
 .\objects\stm32f10x_can.o: .\library\stm32f10x_usart.h
 .\objects\stm32f10x_can.o: .\library\stm32f10x_wwdg.h
 .\objects\stm32f10x_can.o: .\library\misc.h
-.\objects\stm32f10x_can.o: ..\library\stm32f10x_rcc.h
